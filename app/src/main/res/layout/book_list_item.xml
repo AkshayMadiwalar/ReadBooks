@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="15dp"
+    android:background="#faf0e6"
+    android:paddingBottom="10dp"
+    android:paddingLeft="15dp">
+
+    <TextView
+        android:textAllCaps="true"
+        android:textColor="@android:color/background_dark"
+        android:id="@+id/title_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:text="India"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:textColor="@android:color/background_dark"
+            android:textSize="16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Author : "/>
+        <TextView
+            android:textColor="@android:color/darker_gray"
+            android:textSize="16sp"
+            android:id="@+id/author_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="APJ"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="3dp">
+        <TextView
+            android:textColor="@android:color/background_dark"
+            android:textSize="16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Publisher : "/>
+        <TextView
+            android:textColor="@android:color/darker_gray"
+            android:textSize="16sp"
+            android:id="@+id/publisher_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="abcde"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:orientation="horizontal">
+        <TextView
+            android:textColor="@android:color/background_dark"
+            android:textSize="16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Publishing Date : "/>
+        <TextView
+            android:textColor="@android:color/darker_gray"
+            android:textSize="16sp"
+            android:id="@+id/publishinDate_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="20:12:85"/>
+
+    </LinearLayout>
+
+</LinearLayout>

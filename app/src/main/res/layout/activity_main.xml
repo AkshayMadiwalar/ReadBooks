@@ -1,0 +1,49 @@
+ <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/searchIndicator_id"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fdf5e6"
+        android:orientation="vertical">
+
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="400dp"
+    android:scaleType="fitXY"
+    android:src="@drawable/book"/>
+     <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="Search your required book"
+         android:textSize="25sp"
+         android:fontFamily="sans-serif-condensed"
+         android:layout_marginTop="10dp"
+         android:layout_gravity="center_horizontal" />
+
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="10dp"
+         android:layout_marginLeft="30dp"
+         android:layout_marginRight="30dp"
+         android:orientation="horizontal">
+
+
+        <EditText
+            android:id="@+id/bookName_id"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="Name"
+            android:layout_weight="3"
+            android:layout_gravity="center"/>
+
+     <ImageView
+         android:id="@+id/search_id"
+         android:layout_width="0dp"
+         android:layout_weight=".5"
+         android:layout_height="25sp"
+         android:layout_gravity="center"
+         android:src="@android:drawable/ic_search_category_default"/>
+     </LinearLayout>
+    </LinearLayout>
